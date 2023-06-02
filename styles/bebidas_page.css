@@ -41,6 +41,8 @@ div.galery_cafe > .cafe_simples, .cappucino, .expresso{
     padding: 5px;
     margin: 20px;
     border: solid 3px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
     
 }
 div.galery_cha > .cha_simples, .cha_gelado{
@@ -48,18 +50,24 @@ div.galery_cha > .cha_simples, .cha_gelado{
     padding: 5px;
     margin: 20px;
     border: solid 3px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
 }
 div.galery_agua > .agua_semgas, .agua_comgas{
     
     padding: 5px;
     margin: 20px;
     border: solid 3px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
 }
 div.galery_refri > .sprite, .tubaina, .fanta, .coca{
     
     padding: 5px;
     margin: 20px;
     border: solid 3px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
 }
 div.gallery img {
     width: 90%;
@@ -68,5 +76,14 @@ h3 > a{
     color: white;
 }
 h3 > a:hover{
+    color: white;
+}
+body{
+    background-image: url(/WebProject/imagens/img_home.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.desc{
     color: white;
 }
