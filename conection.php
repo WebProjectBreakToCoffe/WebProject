@@ -1,24 +1,21 @@
 <?php
-
 // Conexão com o banco de dados
 $pdo = new PDO("mysql:host=LocalHost", "root", "root");
 
-// Verificar se o banco de dados  existe
+
 $sql = "SELECT SCHEMA_NAME FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = 'clienteDB'";
 $resultado = $pdo->query($sql)->fetch();
 
 if (empty($resultado)) {
-    // Criar o banco de dados se não existir
     $sql = "CREATE DATABASE clienteDB";
     $pdo->exec($sql);
 }
 
-// Selecionar o banco de dados
 $pdo->exec("USE clienteDB");
 
 // Verificar se a tabela  existe
 $resultado = $pdo->query("SHOW TABLES LIKE 'cliente'")->fetch();
-$resultado = $pdo->query("SHOW TABLES LIKE 'avaliacao'")->fetch();
+// $resultado = $pdo->query("SHOW TABLES LIKE 'avaliacao'")->fetch();
 if (!$resultado) {
     // Criar a tabela  se não existir
     $sql = "CREATE TABLE clientes (
@@ -34,7 +31,6 @@ if (!$resultado) {
         estrelas FLOAT(1) NOT NULL,
         id_clientes INT(11),
         CONSTRAINT fk_cliente_avaliacao FOREIGN KEY (id_clientes) REFERENCES clientes (id_clientes)
-    )";
+     )";
     $pdo->exec($sql);
-}   
-?>
+}
