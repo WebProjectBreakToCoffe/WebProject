@@ -25,7 +25,9 @@ h2, h3{
     padding-left: 25px;
     color: white;
 }   
-
+h4{
+    color: white;
+}
 .main{
     display: flex;
 }
@@ -42,6 +44,7 @@ div.galery_cafe > .cafe_simples, .cappucino, .expresso{
     border: solid 3px;
     background-color: rgb(0, 0, 0);
     border-radius: 5px;
+    border-color: black;
     
 }
 div.galery_cha > .cha_simples, .cha_gelado{
@@ -51,6 +54,7 @@ div.galery_cha > .cha_simples, .cha_gelado{
     border: solid 3px;
     background-color: rgb(0, 0, 0);
     border-radius: 5px;
+    border-color: black;
 }
 div.galery_agua > .agua_semgas, .agua_comgas{
     
@@ -59,6 +63,7 @@ div.galery_agua > .agua_semgas, .agua_comgas{
     border: solid 3px;
     background-color: rgb(0, 0, 0);
     border-radius: 5px;
+    border-color: black;
 }
 div.galery_refri > .sprite, .tubaina, .fanta, .coca{
     
@@ -67,6 +72,7 @@ div.galery_refri > .sprite, .tubaina, .fanta, .coca{
     border: solid 3px;
     background-color: rgb(0, 0, 0);
     border-radius: 5px;
+    border-color: black;
 }
 div.gallery img {
     width: 90%;
@@ -78,7 +84,7 @@ h3 > a:hover{
     color: white;
 }
 body{
-    background-image: url(/WebProject/imagens/img_home.svg);
+    background-image: url(/imagens/img_home.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

@@ -50,7 +50,7 @@ label > a:hover{
 }
 
 body {
-    background-image: url(/WebProject/imagens/img_home.svg);
+    background-image: url(/imagens/img_home.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
