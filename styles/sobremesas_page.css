@@ -32,35 +32,51 @@ h2, h3{
 div.galery_sobremesas, .galery_sorvete, .galery_milkshake, .galery_doces {
     padding: 5px;
     display: flex;
+    
 }
 
 div.galery_sobremesas > .torta_choc, .torta_morango, .cupcake, .torta_limao{
     padding: 5px;
     margin: 20px;
     border: solid 3px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-color: black;
     
 }
-div.galery_sorvete > .svt_morango, .svt_maracuja{
+div.galery_sorvete > .svt_morango, .svt_maracuja, .svt_choco{
     
     padding: 5px;
     margin: 20px;
     border: solid 3px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-color: black;
 }
 div.galery_milkshake > .milke_maracuja, .milke_oreo, .milke_morango{
     
     padding: 5px;
     margin: 20px;
     border: solid 3px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-color: black;
 }
 div.galery_doces > .doce_morango, .trufa, .brownie{
     
     padding: 5px;
     margin: 20px;
     border: solid 3px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-color: black;
 }
 h3 > a{
     color: white;
 }
 h3 > a:hover{
+    color: white;
+}
+.desc{
     color: white;
 }
