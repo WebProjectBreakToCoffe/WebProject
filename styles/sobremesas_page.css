@@ -1,9 +1,9 @@
-div.galery_cafe, .galery_cha, .galery_agua, .galery_refri {
+div.galeryUm, .galeryDois, .galeryTres {
     display: flex;
     
 }
 
-div.galery_cafe > .cafe_simples, .cappucino, .expresso{
+div.galeryUm > .brownie, .cupcake, .doce_morango, .trufa{
     padding: 5px;
     margin: 20px;
     border: solid 3px;
@@ -12,7 +12,7 @@ div.galery_cafe > .cafe_simples, .cappucino, .expresso{
     border-color: black;
     
 }
-div.galery_cha > .cha_simples, .cha_gelado, .agua_semgas, .agua_comgas{
+div.galeryDois > .milk_maracuja, .milk_morango, .milk_oreo, .svt_maracuja{
     
     padding: 5px;
     margin: 20px;
@@ -22,7 +22,7 @@ div.galery_cha > .cha_simples, .cha_gelado, .agua_semgas, .agua_comgas{
     border-color: black;
 }
 
-div.galery_refri > .sprite, .tubaina, .fanta, .coca{
+div.galeryTres >  .svt_manga, .svt_morango, .torta_chocolate, .torta_limao{
     padding: 5px;
     margin: 20px;
     border: solid 3px;
