@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <link rel="stylesheet" href="styles/login.css">
     <meta charset="UTF-8">
-    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
@@ -22,29 +21,27 @@
                 <div class="col-12 col-md-8 col-lg-6 col-xl-5">
                     <div class="card shadow-2-strong" style="border-radius: 1rem;">
                         <div class="card-body p-4">
-                            <form action="action.php" method="post" class="needs-valdiation">
+                            <form action="action.php" method="post" class="needs-validation">
                                 <div class="img text-center">
                                     <img src="imagens/Group.svg" alt="">
                                 </div>
                                 <h3 class="mb-4 text-center">Faça seu login</h3>
 
-                                <div class="form-name mb-4 text-right">
-                                    <label class="form-label">Email</label>
-                                    <input type="name" id="typeLoginX-2" class="form-control-plaintext" name="name" required />
+                                <div class="form-group mb-4">
+                                    <label class="form-label" for="email">Email</label>
+                                    <input type="email" id="email" class="form-control" name="email" required />
+                                    <div class="invalid-feedback">
+                                        Por favor, digite o email.
+                                    </div>
                                 </div> 
 
-                                <div class="invalid-feedback">
-                                    crie o nome de usuário para fazer login!
-                                </div>
-
-                                <div class="form-password mb-4">
-                                    <label class="form-label" for="typePasswordX-2">Password</label>
-                                    <input type="password" id="password" class="form-control-plaintext" name="age" required />
+                                <div class="form-group mb-4">
+                                    <label class="form-label" for="password">Password</label>
+                                    <input type="password" id="password" class="form-control" name="senha" required />
                                     <span class="lnr lnr-eye"></span>
-                                </div>
-
-                                <div class="invalid-feedback">
-                                    Digite sua senha de login
+                                    <div class="invalid-feedback">
+                                        Por favor, digite a senha.
+                                    </div>
                                 </div>
 
                                 <div class="text-center mb-3">
