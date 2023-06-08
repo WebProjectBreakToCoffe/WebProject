@@ -16,22 +16,22 @@ if (isset($_POST['login'])) {
         $_SESSION["Email"] = $linha['email'];
         $_SESSION["Senha"] = $linha['senha'];
         
-        // Redireciona para a página de cliente
-        header("Location: bebidas_page.html");
+        // Redireciona para a página de clientes
+        header("Location: index_screen.html");
         exit;
     } else {
         echo '<script type="text/javascript">';
         echo 'alert("Email ou senha inválidos!!!");';
-        echo 'window.location.href = "./html/login.html";';
+        echo 'window.location.href = "login_screen.html";';
         echo '</script>';
     }
 } else {
     if (!isset($_SESSION["Email"]) || !isset($_SESSION["Senha"])) {
-        header("Location: login.html");
+        header("Location: login_screen.html");
         exit;
     } else {
         // Usuário logado! Redireciona para a página de cliente
-        header("Location: bebidas_page.html");
+        header("Location: index_screen.html");
         exit;
     }
 }

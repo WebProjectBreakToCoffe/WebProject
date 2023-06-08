@@ -115,25 +115,25 @@
         <div class="sidebar">
             <ul>
                 <li>
-                    <a href="/index_screen.html">
+                    <a href="index_screen.html">
                         <span class="icon"><i class="fas fa-home"></i></span>
                         <span class="item">Home</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/bebidas_page.html"  class="active">
+                    <a href="bebidas_page.php"  class="active">
                         <span class="icon"><i class="fas fa-coffee"></i></span>
                         <span class="item">Bebidas</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/salgados_page.html">
+                    <a href="salgados_page.php">
                         <span class="icon"><i class="fas fa-user-friends"></i></span>
                         <span class="item">Salgados</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/sobremesas_page.html">
+                    <a href="sobremesas_page.html">
                         <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
                         <span class="item">Sobremesas</span>
                     </a>

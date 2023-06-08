@@ -32,7 +32,7 @@ h3 > a:hover{
     color: white;
 }
 body{
-    background-image: url(/imagens/img_home.svg);
+    background-image: url(img_home.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
