@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap%27');
+
+h1 {
+    padding-top: 5px;
+    padding-left: 10px;
+    color: white;
+}
+
+.texto {
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   color: white;
+   position: absolute;
+   width: 250px;
+   left: -330px;
+   top: -90px;
+   padding-top: 57px;
+}
+.texto >p{
+    font-size: 20px;
+}
+p{
+    color: white;
+}
+.git{
+    margin-left: 10px;
+}
+.main-collum{
+   display: flex;
+   margin-left: 600px;
+   gap: 10px;
+   flex-wrap: wrap;
+}
+
+.tassio >p{ 
+    font-family: 'Sarala',sans-serif;
+    margin-left: 5px;
+    width: 126px;
+    margin-right: 30px;
+}
+.gustavo >p{ 
+    font-family: 'Sarala',sans-serif;
+    margin-left: 5px;
+    width: 126px;
+    margin-right: 30px;
+}
+.lael >p{ 
+    font-family: 'Sarala',sans-serif;
+    margin-left: 5px;
+    width: 126px;
+    margin-right: 30px;
+}
+.Renan >p{ 
+    font-family: 'Sarala',sans-serif;
+    margin-left: 5px;
+    width: 126px;
+    margin-right: 30px;
+}
+.marcelle >p{ 
+    font-family: 'Sarala',sans-serif;
+    margin-left: 5px;
+    width: 126px;
+    margin-right: 30px;
+}
+.mercia >p{ 
+    font-family: 'Sarala',sans-serif;
+    margin-left: 5px;
+    width: 126px;
+    margin-right: 30px;
+}
+.antonio >p{ 
+    font-family: 'Sarala',sans-serif;
+    margin-left: 5px;
+    width: 126px;
+    margin-right: 30px;
+}
+.collum1{
+    display: flex;
+    flex-direction: row;
+    
+}
+.collum2{
+    display: flex;
+    flex-direction: row;
+}
+.collum3{
+    display: flex;
+    flex-direction: row;
+}
+.collum4{
+    display: flex;
+    flex-direction: row;
+}
+.palavra{
+    
+    position: absolute;
+    left: 780px;
+    width: 700px;
+    font-size: 24px;
+    text-align: center;
+    top: 170px;
+    
+}
+.main-galery{
+    display: flex;
+
+}
+.colaborador{
+    position: absolute;
+    display: flex;
+    left: 900px;
+    top: 300px;
+    font-size: 25px;
+    width: 70px;
+}
+.main{
+    position: absolute;
+    width: 260px;
+    height: 50px;
+    left: 300px;
+    top: 350px;
+    margin-right: 0%;
+    gap: 200px;
+    
+}
+.paragrafo{
+   
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 22px;
+   top: 230px;
+   color: rgb(15, 14, 14);
+   width: 500px;
+   position: absolute;
+}
+
+label {
+    color: white;
+    margin-top: 12px;
+    margin-left: 37px;
+    position: absolute;
+    width: 190px;
+    height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+label > a{
+    text-decoration: none;
+    color: white;
+}
+
+label > a:hover{
+    color: white;
+}
+
+body {
+    background-image: url(img_home.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.colaborador{
+    align-self: flex-end;
+}
+
+.footer-class{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    top: 944px;
+    background: #000000 ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper .sidebar{
+	background: rgb(0, 0, 0);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 225px;
+	height: 100%;
+	padding: 60px 0;
+	transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .profile{
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.wrapper .sidebar ul li a{
+	display: block;
+	padding: 13px 30px;
+	border-bottom: 1px solid rgb(42, 41, 41);
+	color: rgb(241, 237, 237);
+	font-size: 16px;
+	position: relative;
+}
+
+.wrapper .sidebar ul li a .icon{
+	color: #dee4ec;
+	width: 30px;
+	display: inline-block;
+}
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+	color: #000000;
+
+	background:white;
+    border-right: 2px solid rgb(5, 68, 104);
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon{
+	color: #000000;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before{
+	display: block;
+}
+
+.wrapper .section{
+	width: calc(100% - 225px);
+	margin-left: 225px;
+	transition: all 0.5s ease;
+}
+
+.wrapper .section .top_navbar{
+	background: rgb(0, 0, 0);
+	height: 60px;
+	display: flex;
+	padding: 0 30px;
+ 
+}
+.wrapper .section .top_navbar .hamburger a{
+	font-size: 28px;
+	color: #f4fbff;
+}
+.hamburger{
+	margin-top: 5px;
+}
+.wrapper .section .top_navbar .hamburger a:hover{
+	color: #bababa;
+}
+
+ .wrapper .section .main-galery{
+	margin: 30px;
+}
+
+body.active .wrapper .sidebar{
+	left: -225px;
+}
+
+body.active .wrapper .section{
+	margin-left: 0;
+	width: 100%;
+}
+
+ul{
+    padding-left: 0;
+}
+.header{
+	margin-left: 550px;
+	margin-top: 5px;
+	color: white;
+}
