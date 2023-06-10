@@ -21,3 +21,9 @@ top: 290px;
 right: 25px;
 cursor: pointer;
 }
+body {
+    background-image: url(img_home.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
