@@ -1,13 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="styles/sobre.css">
     <title>Document</title>
 </head>
+
+
+
 <body>
-    
+
+
+
+    <div class="wrapper">
+        <div class="section">
+            <div class="top_navbar">
+                <div class="hamburger">
+                    <a href="#">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+                <div class="header">
+                    <h1>Break to Coffe</h1>
+                </div>
+            </div>
+            <div class="main-galery">
+                <div class="palavra">
+                    <p>Projeto desenvolvido para uma cafeteria fictícia<br> na materia
+                        de desenvolvimento web com intuito de<br>mostrar os conhecimentos adquiridos nas aulas. </p>
+                </div>
+                    <div class="colaborador">
+                        <p>Colaboradores:</p>
+                    </div>
+                <div class="main">
+
+
+                    <div class="main-collum">
+                        <div class="collum1">
+                            <div class="colaborador1">
+                                <img src="/WebProject/imagens/img_sobre/antonio.svg">
+                            </div>
+                            <div class="antonio">
+                                <p>Antonio Carvalho</p>
+                                <a href="https://github.com/4ntonio19"> <img src="/WebProject/imagens/Vector.svg"
+                                        class="git" alt="GitHub"></a>
+                            </div>
+                            <div class="colaborador2">
+                                <img src="/WebProject/imagens/img_sobre/tassio.svg">
+                            </div>
+                            <div class="tassio">
+                                <p>Tassio Alves</p>
+                                <a href="https://github.com/TassioAlvesPM"> <img src="/WebProject/imagens/Vector.svg"
+                                        class="git" alt="GitHub"></a>
+                            </div>
+                        </div>
+                        <div class="collum2">
+                            <div class="colaborador3">
+                                <img src="/WebProject/imagens/img_sobre/Gustagol.svg">
+                            </div>
+                            <div class="gustavo">
+                                <p>Gustavo Santos</p>
+                                <a href="https://github.com/Gusttavo09"> <img src="/WebProject/imagens/Vector.svg"
+                                        class="git" alt="GitHub"></a>
+                            </div>
+                            <div class="colaborador4">
+                                <img src="/WebProject/imagens/img_sobre/lael.svg">
+                            </div>
+                            <div class="lael">
+                                <p>Lael Amaral</p>
+                                <a href="https://github.com/Amaralz"> <img src="/WebProject/imagens/Vector.svg"
+                                        class="git" alt="GitHub"></a>
+                            </div>
+                        </div>
+                        <div class="collum3">
+                            <div class="colaborador5">
+                                <img src="/WebProject/imagens/img_sobre/renan.svg">
+                            </div>
+                            <div class="Renan">
+                                <p>Renan Batista</p>
+                                <a href="https://github.com/RenanBatista97"> <img src="/WebProject/imagens/Vector.svg"
+                                        class="git" alt="GitHub"></a>
+                            </div>
+                            <div class="colaborador6">
+                                <img src="/WebProject/imagens/img_sobre/marcelle.svg">
+                            </div>
+                            <div class="marcelle">
+                                <p>Marcelle Vargas</p>
+                                <a href="https://github.com/marcyky"> <img src="/WebProject/imagens/Vector.svg"
+                                        class="git" alt="GitHub"></a>
+                            </div>
+                        </div>
+                        <div class="collum4">
+                            <div class="colaborador7">
+                                <img src="/WebProject/imagens/img_sobre/mercia.svg">
+                            </div>
+                            <div class="mercia">
+                                <p>Mercia</p>
+                                <a href="https://github.com/Salvemel"> <img src="/WebProject/imagens/Vector.svg"
+                                        class="git" alt="GitHub"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <ul>
+                        <li>
+                            <a href="/index_screen.html" class="active">
+                                <span class="icon"><i class="fas fa-home"></i></span>
+                                <span class="item">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/bebidas_page.html">
+                                <span class="icon"><i class="fas fa-coffee"></i></span>
+                                <span class="item">Bebidas</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/salgados_page.html">
+                                <span class="icon"><i class="fas fa-user-friends"></i></span>
+                                <span class="item">Salgados</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/sobremesas_page.html">
+                                <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
+                                <span class="item">Sobremesas</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="icon"><i class="fas fa-info"></i></span>
+                                <span class="item">Sobre</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <script>
+                var hamburger = document.querySelector(".hamburger");
+                hamburger.addEventListener("click", function () {
+                    document.querySelector("body").classList.toggle("active");
+                })
+            </script>
+
 </body>
+
 </html>
