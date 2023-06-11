@@ -274,6 +274,8 @@ ul{
     padding-left: 0;
 }
 .header{
+    position: absolute;
+    left: 620;
 	margin-left: 550px;
 	margin-top: 5px;
 	color: white;

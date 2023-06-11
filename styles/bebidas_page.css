@@ -146,9 +146,15 @@ body.active .wrapper .section{
 
 ul{
     padding-left: 0;
-}
+} 
 .header{
+	position: absolute;
 	margin-left: 420px;
 	margin-top: 5px;
 	color: white;
+	
+}
+.main-galery{
+	position:absolute;
+	left:110px;
 }
