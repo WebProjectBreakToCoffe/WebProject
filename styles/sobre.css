@@ -1,24 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap%27');
-
-h1 {
-    padding-top: 5px;
-    padding-left: 10px;
-    color: white;
-}
-
-.texto {
-   font-family: Arial, Helvetica, sans-serif;
-   text-align: center;
-   color: white;
-   position: absolute;
-   width: 250px;
-   left: -330px;
-   top: -90px;
-   padding-top: 57px;
-}
-.texto >p{
-    font-size: 20px;
-}
 p{
     color: white;
 }
@@ -98,7 +78,7 @@ p{
     width: 700px;
     font-size: 24px;
     text-align: center;
-    top: 170px;
+    top: 120px;
     
 }
 .main-galery{
@@ -109,7 +89,7 @@ p{
     position: absolute;
     display: flex;
     left: 900px;
-    top: 300px;
+    top: 220px;
     font-size: 25px;
     width: 70px;
 }
@@ -118,20 +98,12 @@ p{
     width: 260px;
     height: 50px;
     left: 300px;
-    top: 350px;
+    top: 280px;
     margin-right: 0%;
     gap: 200px;
     
 }
-.paragrafo{
-   
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 22px;
-   top: 230px;
-   color: rgb(15, 14, 14);
-   width: 500px;
-   position: absolute;
-}
+
 
 label {
     color: white;
@@ -275,8 +247,11 @@ ul{
 }
 .header{
     position: absolute;
-    left: 620;
-	margin-left: 550px;
-	margin-top: 5px;
 	color: white;
+	left: 650px;
+	top: 2px;
+}
+h1{
+    font-weight: 500;
+    font-size: 39px;
 }
