@@ -141,7 +141,7 @@ ul{
 }
 .header{
 	position:absolute;
-	margin-left: 420px;
+	left: 650px;
 	margin-top: 5px;
 	color: white;
 }
